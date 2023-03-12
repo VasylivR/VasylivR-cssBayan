@@ -88,3 +88,71 @@ body {
     height: 1.75rem;
     visibility: hidden;
 }
+@media screen and (max-width: 820px) {
+    .accordeon {
+      max-width: 80rem;
+    }
+  
+    .accordeon-title {
+      font-size: 1.8rem;
+    }
+  
+    .accordion__label {
+      font-size: 1.4rem;
+    }
+  
+    .accordeon-container-item {
+      padding: 0;
+    }
+  
+    .accordeon__input:checked ~ .container-img .accordeon-img {
+      padding-bottom: 1.25rem;
+    }
+  
+    .accordeon-ico {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .accordeon-title {
+      font-size: 1.5rem;
+      padding-bottom: 1rem;
+    }
+  
+    .accordion__label{
+      font-size: 1.2rem;
+    }
+  
+    .accordeon-container-item {
+      padding: 0;
+    }
+  
+    .accordeon__input:checked ~ .container-img .accordeon-img {
+      padding: 1rem 0;
+    }
+  
+    .accordeon-ico {
+      width: 1.125rem;
+      height: 1.125rem;
+    }
+  
+  }
+  
+  @media screen and (max-width: 367px) {
+    .accordeon-title {
+      font-size: 1.5rem;
+      padding-bottom: 1rem;
+    }
+  
+    .accordion__label {
+      font-size: 1rem;
+    }
+  
+    .accordeon-ico {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+  
