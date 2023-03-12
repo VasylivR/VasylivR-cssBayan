@@ -50,7 +50,7 @@ body {
 }
   
 .accordeon__input:checked ~ .accordion__label .accordeon-ico {
-    background-image: url('img/plus_ico.png');
+    background-image: url('../img/plus_ico.png');
     transition: 0.4s, ease-out 0.4s;
 }
   
@@ -80,7 +80,7 @@ body {
 }
   
 .accordeon-ico {
-    background-image: url("img/dagger_ico.png");
+    background-image: url('../img/dagger_ico.png');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
