@@ -4,7 +4,7 @@
   
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url('cssBayan/img/sponge-seamless-background.jpg');
+    background-image: url('../img/sponge-seamless-background.jpg');
     background-size: contain;
     display: block;
     margin: 0;
