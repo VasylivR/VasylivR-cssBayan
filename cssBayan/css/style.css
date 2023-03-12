@@ -10,4 +10,81 @@ body {
     margin: 0;
     color: rgb(74, 101, 5);
 }
+.accordeon {
+    max-width: 60rem;
+    margin: 5vh auto;
+}
   
+.accordeon-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 auto 2rem auto;
+    padding-bottom: 1rem;
+    color: rgb(222, 88, 88);
+}
+  
+.accordeon-container-main {
+    display: flex;
+    flex-direction: column;
+}
+  
+.accordeon-container-item {
+    border-top: 2px solid;
+    border-color: darkgrey;
+    padding: 2vh 0 1vh;
+}
+  
+.accordeon__input {
+    margin: 0;
+    display: none;
+}
+  
+.accordeon__input:checked ~ .container-img .accordeon-img {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    max-width: 30rem;
+    width: 100%;
+    height: 100%; 
+    padding-top: 1.5rem;
+}
+  
+.accordeon__input:checked ~ .accordion__label .accordeon-ico {
+    background-image: url('img/plus_ico.png');
+    transition: 0.4s, ease-out 0.4s;
+}
+  
+.accordeon__input:checked + .accordion__label {
+    color: rgb(250, 0, 0);
+}
+  
+.accordion__label {
+    width: 100%;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.accordion__label:active {
+    color: rgb(3, 0, 57);
+}
+  
+.accordeon-img {
+    border-radius: 3rem;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+.accordeon-ico {
+    background-image: url("img/dagger_ico.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    width: 1.75rem;
+    height: 1.75rem;
+    visibility: hidden;
+}
