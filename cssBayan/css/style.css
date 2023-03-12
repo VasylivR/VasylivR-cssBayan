@@ -155,4 +155,28 @@ body {
       height: 1rem;
     }
   }
+  @media (hover: hover) {
+    .accordeon:hover .accordeon-ico {
+      display: block;
+      visibility: visible;
+      transition: all 0.4s ease-out;
+    }
   
+    .accordeon:hover {
+      font-weight: 600;
+      cursor: pointer;
+      color: rgb(40, 46, 2);
+      
+    }
+  
+    .accordeon-container-item:hover .container-img .accordeon-img {
+      display: block;
+      transition: all 0.9s ease-out;
+      width: 100%;
+      height: 100%;
+      max-width: 30rem;
+      padding-top: 1.5rem;
+      opacity: 2;
+      visibility: visible;
+    }
+  }
